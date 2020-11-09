@@ -69,8 +69,11 @@ public final class ClientThread extends Thread {
      * Entry point of client communication
      */
     public void run() {
+        int noOfKeyExchanges = 1;
         establishIO();
-        keyExchange();
+        for(int i = 0; i < noOfKeyExchanges; i++) {
+            keyExchange();
+        }
         //communicate();
         try {
             sleep(threadSleep);
