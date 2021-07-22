@@ -1,3 +1,6 @@
+Implementation of [Diffie-Hellman Key Exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) using Java Socket Programming.
+
+
 How to Run:
 
 - Make sure you are in root directory of project
